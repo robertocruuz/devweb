@@ -1,14 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roberto</title>
+    <title>Document</title>
 </head>
 <body>
     <div>
-        <p>Atividade 28/08</p>
-    </div>
+
+        <form>
+            <fieldset>
+                <legend>Informações pessoais:</legend>
+                <label for="User">Nome:</label> <input type="text" id="User" name="Nome" /><br><br>
+                <label for="User">Sobrenome:</label> <input type="text" id="User" name="Sobrenome" />
+            <br><br>
+            <label>Gênero:</label>
+            <br>
+            <label>Masculino</label>
+            <input type="radio" name="genero" value="masculino" />
+            <label>Feminino</label>
+            <input type="radio" name="genero" value="feminino" />
+            <label>Outro</label>
+            <input type="radio" name="genero" value="outro" />
+            <br><br>
+            <label for="tamanhos">Tamanhos</label>
+            <select name="Selecione" id="">
+                <option value="Pequeno">Pequeno</option>
+                <option value="Médio">Medio</option>
+                <option value="Grande">Grande</option>
+            </select>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+            <button type="button">Sem ação</button>
+        </fieldset>
+        </form>
+    </div>   
 </body>
 </html>
+
